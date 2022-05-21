@@ -1,0 +1,65 @@
+#cuerpo{
+    background-color: #F4EEA9;
+}
+header{
+    height: 60px;
+    background: #F0BB62;
+    padding: 0 15px;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo a{
+    color: #D32626;
+    text-decoration: none;
+    font-family: "Press Start 2P", cursive;
+    line-height: 60px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#menu{
+    margin-left: auto;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    color: #064635;
+    text-decoration: none;
+    line-height: 60px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+#menu ul li a:hover{
+    background: #519259
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; 
+    text-align: center;}
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+
+img{
+    width: 80%;
+    line-height: 60px;
+    
+}
+#titulos{
+    line-height: 60px;
+}
+.subtitulos{
+    color:#F4EEA9; background-color:#F0BB62;
+}
